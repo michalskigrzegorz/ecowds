@@ -34,12 +34,12 @@
     </div>
     <div class="ecowds-footer-signature">
       <p>
-        © 2023 ECO WINDOWS powered by ⚡ invert8
+        © 2023 ECO WINDOWS powered by ⚡ <a href="https://invert8.com" target="_blank">invert8</a>
       </p>
     </div>
   </footer>    
 
-<?php wp_footer(); ?>
+  <?php wp_footer(); ?>
 
 </body>
 </html>

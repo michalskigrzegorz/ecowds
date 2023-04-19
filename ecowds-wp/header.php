@@ -17,7 +17,9 @@
   <header>
     <div id="hero-slider">
       <div id="logo" class="mask">
-        <img class="logo-text masked" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/ecowindows-white-logo.png" width="200"/>
+        <a href="http://ecowds.invert8.com">
+          <img class="logo-text masked" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/ecowindows-white-logo.png" width="200"/>
+        </a>
       </div>
       <div id="slideshow">
         <div id="slides-main" class="slides">
@@ -78,7 +80,7 @@
         <nav class="main-menu">
           <ul>
             <li>
-              <a href="">
+              <a href="http://ecowds.invert8.com/products/">
                 <svg xmlns="http://www.w3.org/2000/svg" height="100" viewBox="0 96 960 960" width="100"><path d="M180 936q-24.75 0-42.375-17.625T120 876V276q0-24.75 17.625-42.375T180 216h600q24.75 0 42.375 17.625T840 276v600q0 24.75-17.625 42.375T780 936H180Zm330-330v270h270V606H510Zm0-60h270V276H510v270Zm-60 0V276H180v270h270Zm0 60H180v270h270V606Z"/></svg><br />
                 products
               </a>  
@@ -228,7 +230,7 @@
       <div class="products-grid">
         <div class="products-columns-windows">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/vinyl-windows-thumb.png" width="400"/>
-          <h3>Vinyl Windows</h3>
+          <a href="http://ecowds.invert8.com/vinyl-windows/"><h3>Vinyl Windows</h3></a>
           <p>
             Specializing in European style turn and tilt our vinyl windows are fully customizable. Glass packages are built custom to meet your project requirements.
           </p>
@@ -334,7 +336,7 @@
       </div>
     </div>    
     <div class="map-content">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1352.5923663555877!2d-119.7357539150811!3d39.56659498846647!2m3!1f14.999999999999998!2f57.03507306901044!3f0!3m2!1i1024!2i768!4f35!3m3!1m2!1s0x80993ee1a4c75605%3A0x300bbd4fb5ea1b6!2sECO%20Windows%20LLC!5e1!3m2!1spl!2spl!4v1681464453052!5m2!1spl!2spl" width="600" height="450" style="border:0; width: 100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d82733.48834778159!2d-119.75494206009236!3d39.58814878530392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8099396d78597cd5%3A0x3a6af8fdddd64b7e!2s4960%20Vista%20Blvd%20%23100%2C%20Sparks%2C%20NV%2089436%2C%20Stany%20Zjednoczone!5e0!3m2!1spl!2spl!4v1681848625627!5m2!1spl!2spl" width="600" height="450" style="border:0; width: 100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>        
   </main>
 
