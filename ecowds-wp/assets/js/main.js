@@ -268,8 +268,8 @@ window.addEventListener('scroll', function() {
   var currentScroll = window.pageYOffset || document.documentElement.scrollTop;
   if (currentScroll >= fixmeTop) {
     fixme.style.position = 'fixed';
-    fixme.style.top = '41vw';
-    fixme.style.left = '91vw';
+    fixme.style.top = '21vw';
+    fixme.style.left = '92vw';
     fixme.style.display = 'flex';
   } else {
     fixme.style.position = 'static';

@@ -22,10 +22,12 @@
       <div class="ecowds-footer-social">
         <ul>
           <li>
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/Facebook_f_logo_(2021).svg" width="38" />
+            <a href="https://www.facebook.com/" target="blank">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/Facebook_f_logo_(2021).svg" width="38" />
+            </a>
           </li>
           <li>
-            <a href="">
+            <a href="https://www.youtube.com/">
               <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/502px-Logo_of_YouTube_(2015-2017).webp" width="90"/>
             </a>
           </li>            

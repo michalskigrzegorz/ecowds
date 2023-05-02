@@ -187,9 +187,8 @@ body {
   top: 2rem;
   left: 2rem;
   padding-right: 2rem;
-  z-index: 300;
+  z-index: 900;
 }
-
 /* line 178, D:/WEB/Projects/Slider/assets/scss/style.scss */
 #logo .logo-text {
   position: relative;
@@ -197,7 +196,6 @@ body {
   font-weight: 300;
   color: #fff;
 }
-
 /* line 185, D:/WEB/Projects/Slider/assets/scss/style.scss */
 #logo:after {
   content: '';
@@ -456,7 +454,7 @@ body {
 .ecowds-live-chat {
   /* position: absolute; */
   width: 120px;
-  height: 120px;
+  height: 220px;
   /* left: 90; */
   display: flex;
   flex-direction: column;
@@ -467,6 +465,9 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   z-index: 1;
   padding: auto;
+}
+.ecowds-live-chat div {
+  margin: auto;
 }
 .ecowds-live-chat svg {
   fill: #000000;
@@ -501,11 +502,18 @@ body {
   display: inline-block;
   margin-right: 4vw;  
 }
+/* .main-menu a {
+  font-weight: 400;
+} */
+/* .main-menu a:hover {
+  font-weight: 700;
+  color: #8ABF3B;
+} */
 .menu-cont-sidebar {
   position: absolute;
   top: 0px;
-  left: 0px;
-  width: 100%;
+  left: 100%;
+  /* width: 100%; */
   height: 100vh;
   z-index: 400;
 }
@@ -534,14 +542,15 @@ body {
 }
 .menu-cont-bottom {
   position: absolute;
-  top: 0px;
+  top: 88vh;
   left: 0px;
   width: 100%;
-  height: 100vh;
-  z-index: 300;
+  /* height: 100vh; */
+  /* z-index: 700; */
+  z-index: 300;  
 }
 .menu-parent-bottom {
-  /* position: relative; */
+  position: relative;
   /* display: flex;
   justify-content: center;
   align-items: center; */
@@ -571,9 +580,10 @@ body {
 }
 svg {
   fill: #ffffff;
+  filter: drop-shadow(1px 1px 2px rgb(0 0 0 / 0.4));  
 }
 svg:hover {
-  fill: #ff0000;
+  fill: #8CC740;
 }
 
 /* START >>> SIDEBAR */
@@ -736,6 +746,33 @@ body {
   -moz-box-shadow: 0px 0px 44px -3px rgba(115, 115, 115, 1);
   box-shadow: 0px 0px 44px -3px rgba(115, 115, 115, 1);
 }
+.fade-in-products {
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+}
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
 /* END >>> main-content */
 
 /* START >>> shop-content */
@@ -856,8 +893,12 @@ a.my-button{
 .ecowds-footer-social {
   padding-top: 20px;
 }
+.ecowds-footer-social ul {
+  display: flex;
+}
 .ecowds-footer-social li {
-  padding-bottom: 10px;
+  padding-top: 5px;
+  padding-left: 20px;
 }
 /* END >>> footer-content */
 
